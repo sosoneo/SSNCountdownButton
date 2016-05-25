@@ -1,6 +1,8 @@
 # SSNCountdownButton
 A simple access to the verification code countdown button
 
+![](http://7xs5md.com1.z0.glb.clouddn.com/ssssn.gif)
+
 ##Usage
 ---
 ```
