@@ -38,7 +38,6 @@
     
     //设置回调事件，即每次定时器触发的处理时间
     dispatch_source_set_event_handler(source, ^{
-        NSLog(@"%zi", number);
         number--;
         dispatch_async(dispatch_get_main_queue(), ^{
             self.enabled = NO;
@@ -46,7 +45,7 @@
             [self setTitle:[NSString stringWithFormat:@"%zi%@",number,timeUnit] forState:UIControlStateDisabled];
             [self setBackgroundColor:inColor];
         });
-        //运行到第time秒则取消计时器
+        //运行到第0秒则取消计时器
         if (number == 0) {
             dispatch_source_cancel(source);
             NSLog(@"Cancle timer.");
