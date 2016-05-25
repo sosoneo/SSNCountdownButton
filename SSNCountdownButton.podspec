@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
     s.authors      = {'sosoneo' => 'sosoneo@163.com'}
     s.platform     = :ios, '6.0'
     s.source       = {:git => 'hhttps://github.com/sosoneo/SSNCountdownButton.git', :tag => s.version}
-    s.source_files = 'SSNCountdownButton/**/*.{h,m}'
+    s.source_files = 'SSNCountdownButton/SSNCountdownButton/*.{h,m}'
     s.requires_arc = true
 end
