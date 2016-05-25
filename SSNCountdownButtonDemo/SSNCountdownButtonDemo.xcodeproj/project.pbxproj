@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C6EBD081CF58CF6006900C8 /* SSNCountdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EBD071CF58CF6006900C8 /* SSNCountdownButton.m */; };
 		1C705AD41CF56DAB00C68380 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C705AD31CF56DAB00C68380 /* main.m */; };
 		1C705AD71CF56DAB00C68380 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C705AD61CF56DAB00C68380 /* AppDelegate.m */; };
 		1C705ADA1CF56DAB00C68380 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C705AD91CF56DAB00C68380 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		1C705AE21CF56DAB00C68380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C705AE01CF56DAB00C68380 /* LaunchScreen.storyboard */; };
 		1C705AED1CF56DAC00C68380 /* SSNCountdownButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C705AEC1CF56DAC00C68380 /* SSNCountdownButtonDemoTests.m */; };
 		1C705AF81CF56DAC00C68380 /* SSNCountdownButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C705AF71CF56DAC00C68380 /* SSNCountdownButtonDemoUITests.m */; };
-		1C705B071CF56DD100C68380 /* SSNCountdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C705B061CF56DD100C68380 /* SSNCountdownButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C6EBD061CF58CF6006900C8 /* SSNCountdownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNCountdownButton.h; sourceTree = "<group>"; };
+		1C6EBD071CF58CF6006900C8 /* SSNCountdownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNCountdownButton.m; sourceTree = "<group>"; };
 		1C705ACF1CF56DAB00C68380 /* SSNCountdownButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSNCountdownButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C705AD31CF56DAB00C68380 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C705AD51CF56DAB00C68380 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		1C705AF31CF56DAC00C68380 /* SSNCountdownButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSNCountdownButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C705AF71CF56DAC00C68380 /* SSNCountdownButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSNCountdownButtonDemoUITests.m; sourceTree = "<group>"; };
 		1C705AF91CF56DAC00C68380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1C705B051CF56DD100C68380 /* SSNCountdownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSNCountdownButton.h; path = SSNCountdownButtonDemo/SSNCountdownButton.h; sourceTree = SOURCE_ROOT; };
-		1C705B061CF56DD100C68380 /* SSNCountdownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSNCountdownButton.m; path = SSNCountdownButtonDemo/SSNCountdownButton.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,8 @@
 		1C6EBD051CF588C0006900C8 /* SSNCountdownButton */ = {
 			isa = PBXGroup;
 			children = (
-				1C705B051CF56DD100C68380 /* SSNCountdownButton.h */,
-				1C705B061CF56DD100C68380 /* SSNCountdownButton.m */,
+				1C6EBD061CF58CF6006900C8 /* SSNCountdownButton.h */,
+				1C6EBD071CF58CF6006900C8 /* SSNCountdownButton.m */,
 			);
 			path = SSNCountdownButton;
 			sourceTree = "<group>";
@@ -283,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C705B071CF56DD100C68380 /* SSNCountdownButton.m in Sources */,
+				1C6EBD081CF58CF6006900C8 /* SSNCountdownButton.m in Sources */,
 				1C705ADA1CF56DAB00C68380 /* ViewController.m in Sources */,
 				1C705AD71CF56DAB00C68380 /* AppDelegate.m in Sources */,
 				1C705AD41CF56DAB00C68380 /* main.m in Sources */,
